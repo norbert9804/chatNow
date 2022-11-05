@@ -1,5 +1,5 @@
 <?php
-
+//Fatal error: __autoload() is no longer supported, use spl_autoload_register() instead in /Applications/XAMPP/xamppfiles/htdocs/chatNow/app/autoload.php on line 38
 require('app/autoload.php');
 
 if (!isset($_SESSION['chat_login']['id_user'],
